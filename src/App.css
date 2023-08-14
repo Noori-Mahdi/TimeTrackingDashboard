@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rubik:wght@300;400;500&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(226, 43%, 10%);
+
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    color: hsl(236, 100%, 87%);
+}
+
+.profileBx img {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.profileBx {
+    padding: 0;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    margin: 5px 0;
+}
+
+.profileBx ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.profileBx ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.profileBx ul li span:hover {
+    color: #fff;
+}
+
+.profileBx div {
+    width: 100%;
+    background-color: hsl(235, 45%, 61%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.profileBx ul {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.profileBx div span {
+    font-size: 14px;
+}
+
+.profileBx div h4 {
+    text-transform: capitalize;
+    letter-spacing: .05rem;
+    font-size: 35px;
+}
+
+.cardBx {
+    padding: 0;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.cardBx .header {
+    height: 20%;
+    overflow: hidden;
+}
+
+.cardBx .card {
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    border: 0;
+    height: 100%;
+    margin: 5px;
+    z-index: 1000;
+}
+
+.cardBx .card .header {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+
+.cardBx .card .main {
+    position: relative;
+    z-index: 2;
+    background-color: hsl(235, 46%, 20%);
+    padding: 15px;
+    border-radius: 10px;
+    height: 75%;
+}
+
+.cardBx .card .main:hover{
+    background-color: hsl(246, 80%, 60%);
+    cursor: pointer;
+}
+
+.cardBx .card .main h5 {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.cardBx .card .main span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardBx .card .main span:nth-child(2) {
+    color: hsl(236, 100%, 87%);
+}
+
+.cardBx .card .main img:hover {
+    position: relative;
+    cursor: pointer;
+}
+
+.cardBx .card .header img {
+    position: absolute;
+    width: 70px;
+    right: 10px;
+}
+
+.cardBx .card .main img {
+    width: 25px;
+}
+
